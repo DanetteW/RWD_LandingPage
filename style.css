@@ -1,0 +1,83 @@
+#box-container {
+    display: flex;
+    height: 500px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-gap: 10px;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    text-align: center;
+}
+
+#box-1 {
+    background-color: #90ee90;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    text-align: center;
+    align-self: center;
+    height: 200px;
+    width: 200px;
+}
+
+#box-2 {
+    background-color: #E5E4E2;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    text-align: center;
+    align-self: center;
+    height: 200px;
+    width: 200px;
+}
+
+#box-3 {
+    background-color: #daa520;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    text-align: center;
+    align-self: center;
+    height: 200px;
+    width: 200px;
+}
+
+#box-4 {
+    background-color: #c0c0c0;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    text-align: center;
+    align-self: center;
+    height: 200px;
+    width: 200px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: #afeeee;
+}
+
+
+/* On screens that are 992px or less, set the background color to blue */
+
+@media screen and (max-width: 992px) {
+    body {
+        background-color: whitesmoke;
+    }
+}
+
+
+/* On screens that are 600px or less, set the background color to olive */
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: whitesmoke;
+    }
+}
